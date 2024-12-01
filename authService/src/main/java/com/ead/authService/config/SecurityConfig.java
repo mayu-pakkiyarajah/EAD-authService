@@ -27,7 +27,7 @@ public class SecurityConfig {
         http
                 .csrf(AbstractHttpConfigurer::disable) // Updated syntax to handle deprecation
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/v1/auth/**")
+                        .requestMatchers("api/v1/auth/register", "api/v1/auth/login")
                         .permitAll() // Adjust endpoint patterns as needed
                         .anyRequest()
                         .authenticated()
