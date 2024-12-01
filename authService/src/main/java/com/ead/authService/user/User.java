@@ -24,8 +24,8 @@ import java.util.List;
 public class User implements UserDetails {
 
     @Id
-    @GeneratedValue
-    private String id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
     private String firstName;
 
