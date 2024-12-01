@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/authService.iml" filepath="$PROJECT_DIR$/.idea/authService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EAD-authService.iml" filepath="$PROJECT_DIR$/.idea/EAD-authService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authService/authService.iml" filepath="$PROJECT_DIR$/authService/authService.iml" />
     </modules>
   </component>
 </project>
